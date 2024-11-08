@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using EjercicoExcepciones;
+
+Operaciones operaciones = new Operaciones();
+int opcion
+
+    console.writeline();
+switch (opcion)
+{
+    return n1
+}
