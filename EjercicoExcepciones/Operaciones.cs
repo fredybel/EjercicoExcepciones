@@ -20,12 +20,12 @@ namespace EjercicoExcepciones
         }
         public double Division(double N1, double N2)
         {
-            if(N2 != 0)
+            if(N2 == 0)
             {
-                return N1 / N2;
+                Console.WriteLine("No se puede dividir por cero");
             }
             
-            Console.WriteLine("No se puede dividir por cero");
+            return N1 / N2;
         }
     }
 
